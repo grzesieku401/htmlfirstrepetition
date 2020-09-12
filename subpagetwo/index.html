@@ -9,8 +9,14 @@
 <body>
   <h1>This is page with tables</h1>
 
+
+  <h2>This is great table.</h2>
   <p>
     <table>
+      <tr>
+        <th>a</th>
+        <th>b</th>
+      </tr>
       <tr>
         <td>table cell 1</td>
         <td>table cell 2</td>
@@ -23,9 +29,139 @@
   </p>
 
 
+  <h2>Another table</h2>
   <p>
-    <a href="../index.html">Go back to the main page</a>
+    <table>
+      <tr>
+        <th scope="col"></th>
+        <th scope="col">Column header</th>
+      </tr>
+      <tr>
+        <th scope="row">Row header</th>
+        <th></th>
+      </tr>
+      <tr>
+        <td>table cell 1</td>
+        <td>table cell 2</td>
+      </tr>
+    </table>
   </p>
 
+<h2>Another Plan</h2>
+  <p>
+    <table>
+      <tr>
+        <th></th><th>Saturday</th><th>Sunday</th>
+      </tr>
+      <tr>
+        <th>08:00</th> <td>Running</td> <td>Swimming</td>
+      </tr>
+      <tr>
+        <th>10:00</th> <td colspan="2">Playing games</td>
+      </tr>
+    </table>
+  </p>
+
+
+  <h2>Example</h2>
+  <p>
+    <table>
+
+      <tr>
+        <th></th>
+        <th scope="col">Monday</th>
+        <th scope="col">Thuesday</th>
+        <th scope="col">Wendesday</th>
+        <th scope="col">Thursday</th>
+        <th scope="col">Friday</th>
+      </tr>
+      <tr>
+        <th scope="row">08:00</th>
+        <td>Running</td>
+        <td>Swiming</td>
+        <td colspan="2">Golf</td>
+        <td>Polo</td>
+      </tr>
+      <tr>
+        <th scope="row">10:00</th>
+        <td colspan="4">Playing computer games</td>
+        <td>Metting</td>
+      </tr>
+
+
+    </table>
+  </p>
+
+  <h2>Colspan and rowspan table </h2>
+  <p>
+    <table>
+      <tr>
+        <th></th>
+        <th>Genre</th>
+        <th>Main character</th>
+        <th>About</th>
+      </tr>
+      <tr>
+        <th>Sharknado</th>
+        <td rowspan="3">Horror</td>
+        <td>Shark</td>
+        <td>Big jaws</td>
+      </tr>
+      <tr>
+        <th>Jaws</th>
+        <td>Mutated shark</td>
+        <td>Kind of octopus</td>
+      </tr>
+      <tr>
+        <th>Piranha 3D</th>
+        <td>Piranha</td>
+        <td>Sawage ocean creature</td>
+      </tr>
+
+    </table>
+  </p>
+
+
+
+  <h2>Last table here</h2>
+  <p>
+    <table>
+      <thead>
+        <tr>
+          <th>Year</th>
+          <th>Income</th>
+          <th>Outcome</th>
+          <th>Profit</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>2018</th>
+          <td>2000</td>
+          <td>1000</td>
+          <td>1000</td>
+        </tr>
+        <tr>
+          <th>2019</th>
+          <td>4000</td>
+          <td>2500</td>
+          <td>1500</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th>Total</th>
+          <td>6000</td>
+          <td>3500</td>
+          <td>2500</td>
+        </tr>
+      </tfoot>
+    </table>
+  </p>
+
+  <p>
+    <a href="../index.html">Go back to the main page</a>
+
+  </p>
 </body>
 </html>
