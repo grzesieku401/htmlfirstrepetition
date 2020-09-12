@@ -1,3 +1,18 @@
 p{
   background-color: lightgray;
 }
+body{
+  background-color: gray;
+}
+table{
+  background-color: DodgerBlue;
+}
+td{
+  background-color: SlateBlue;
+}
+th{
+  background-color: RoyalBlue;
+}
+li{
+  background-color: SeaGreen;
+}
