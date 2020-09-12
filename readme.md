@@ -1,1 +1,3 @@
-This repository contains files from my html language repetition.
+This is repository for files from my html language repetition.
+
+It contains few pages that are using basic html elements.
