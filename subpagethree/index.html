@@ -15,15 +15,119 @@
   </header>
   <main>
     <h1 style="color: pink;">Subpage number three</h1>
-    <p>
-      At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
-    </p>
+    <article class="">
+      <h2>Article</h2>
+      <p>
+        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+      </p>
+    </article>
     <article >
+      <h2>Here you can see some types of input:</h2>
       <p>
         <input type="text" name="" value="Default1"><br>
-        <input type="text" name="" value="Default2" disabled>
+        <br>
+        <input type="text" name="" value="Default2" disabled><br>
+        <br>
+        <input type="password" name="" value=""> Type your password here. <br>
+        <br>
+        <input type="color" name="" value=""><br>
+        <br>
+        <input type="button" name="" value=""><br>
+        <br>
+        <input type="text" name="" value=""><br>
+        <br>
+        <input type="week" name="" value=""><br>
+        <br>
+        <input type="image" name="" value=""><br>
+        <br>
+        <input type="time" name="" value=""><br>
+        <br>
+        <input type="range" name="" value=""><br>
+        <br>
+        <input type="checkbox" name="" value="">
       </p>
-
+    </article>
+    <article class="">
+      <h2>About labels:</h2>
+      <p>
+        <label for="price">Price</label>
+        <input type="text" id="price"><br>
+        <label>Name <input type="text"></label><br>
+        <label >Address <input type="text" placeholder="Address"></label>
+      </p>
+    </article>
+    <article >
+      <h2>Other input types:</h2>
+      <h3>Radio</h3>
+      <p>
+        <label>
+          <input type="radio" name="food" value="Hamburger" checked>Hamburger
+        </label><br>
+        <label>
+          <input type="radio" name="food" value="Pizza">Pizza
+        </label><br>
+        <label>
+          <input type="radio" name="food" value="French fries">French fries
+        </label><br>
+      </p>
+      <h3>Checkobox</h3>
+      <p>
+        <label>
+          <input type="checkbox" name="Agreement" value="T">
+          I agree to give you for free all my sweets.
+        </label><br>
+        <label >
+          <input type="checkbox" name="Best" value="T" checked disabled>
+          You are the best.
+        </label>
+      </p>
+      <h3>Text area</h3>
+      <p>
+        <h4>Tell me something about you:</h4>
+        <textarea name="name" cols="5" rows="3" maxlength="100" >
+          Type here.
+        </textarea>
+      </p>
+      <h3>Select</h3>
+      <p>
+        <label for="howtochoose">What kind of films do you prefer?</label><br>
+        <select class="" name="howtochoose">
+          <option value="action">Action</option>
+          <option value="scfi" selected>Sci-fi</option>
+          <option value="commedy">Commedy</option>
+        </select><br>
+        <label for="choice1">Best actor:</label><br>
+        <select id="choice1" multiple>
+          <option value="bruce">Bruce Willis</option>
+          <option value="ryan">Ryan Gosling</option>
+          <option value="tom">Tom Hanks</option>
+        </select><br>
+        <label for="ogrouping">Options</label><br>
+        <select class="" name="ogrouping">
+          <optgroup label="Group 1">
+            <option value="1_1">Option 1.1</option>
+            <option value="1_2">Option 1.2</option>
+          </optgroup>
+          <optgroup label="Group 2">
+            <option value="2_1">Option 2.1</option>
+            <option value="2_2">Option 2.2</option>
+          </optgroup>
+        </select>
+      </p>
+      <h3>Data list</h3>
+      <p>
+        <input type="text" list="datalist" >
+        <datalist id="datalist">
+          <option value="">Football</option>
+          <option value="">Basketball</option>
+        </datalist>
+      </p>
+      <h3>Fieldset</h3>
+      <fieldset>
+        <legend>Personal data</legend>
+        <label for="">Name<input type="text"></label>
+        <label for="">Surname<input type="text"></label>
+      </fieldset>
     </article>
   </main>
   <footer>
