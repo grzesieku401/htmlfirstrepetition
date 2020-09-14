@@ -1,3 +1,15 @@
-body{
+h1 {
+  background-color: lightblue;
+  margin: 20%;
+  color: darkgreen;
+}
+header{
+  background-color: gray;
   width: 800px;
+  height: 400px;
+  margin: 20%;
+  padding: 40px;
+  border-color: pink;
+  border-width: : 15px;
+  border-style: dotted;
 }
