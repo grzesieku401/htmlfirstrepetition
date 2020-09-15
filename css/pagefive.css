@@ -1,15 +1,15 @@
-h1 {
-  background-color: lightblue;
-  margin: 20%;
-  color: darkgreen;
+.container{
+  background-color: yellow;
+  width: 1600px;
+  height: 900px;
+
 }
-header{
-  background-color: gray;
+.cont1{
+  background-color: pink;
   width: 800px;
-  height: 400px;
-  margin: 20%;
-  padding: 40px;
-  border-color: pink;
-  border-width: : 15px;
-  border-style: dotted;
+  height: 450px;
+  float: left;
+  margin-left: 25%;
+  margin-top: 25%;
+
 }
